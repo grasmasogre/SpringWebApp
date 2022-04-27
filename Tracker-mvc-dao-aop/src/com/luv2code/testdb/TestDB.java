@@ -50,6 +50,8 @@ public class TestDB extends HttpServlet {
 			out.println("Connection Successful!!");
 			
 			myConn.close();
+			
+			// what the heack
 		}catch(Exception exc) {
 			exc.printStackTrace();
 		}
