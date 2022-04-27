@@ -20,6 +20,8 @@ public class TestJdbc {
 			
 			System.out.println("Connection Successful!!");
 			
+			myConn.close();
+			
 		}catch(Exception exc) {
 			exc.printStackTrace();
 		}
